@@ -19,7 +19,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="834" height="3000"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="85O-Xa-6fq">
+                            <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" directionalLockEnabled="YES" bounces="NO" showsHorizontalScrollIndicator="NO" bouncesZoom="NO" translatesAutoresizingMaskIntoConstraints="NO" id="85O-Xa-6fq">
                                 <rect key="frame" x="292" y="10" width="250" height="3032"/>
                                 <subviews>
                                     <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="FmY-3H-RPv" userLabel="Content View">
@@ -72,7 +72,7 @@
                                 </constraints>
                             </scrollView>
                         </subviews>
-                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <color key="backgroundColor" red="0.96462160350000004" green="0.96475988629999998" blue="0.96459120509999996" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
                             <constraint firstItem="85O-Xa-6fq" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="FTq-Lc-95x"/>
                             <constraint firstAttribute="bottomMargin" secondItem="85O-Xa-6fq" secondAttribute="bottom" constant="-42" id="eBs-eM-Paf"/>
